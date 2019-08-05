@@ -1,0 +1,9 @@
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\bin\Debug\netcoreapp2.2\DDD.Domain.deps.json
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\bin\Debug\netcoreapp2.2\DDD.Domain.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\bin\Debug\netcoreapp2.2\DDD.Domain.pdb
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.csprojAssemblyReference.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.csproj.CoreCompileInputs.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.AssemblyInfoInputs.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.AssemblyInfo.cs
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Domain\obj\Debug\netcoreapp2.2\DDD.Domain.pdb

@@ -1,0 +1,14 @@
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Service.deps.json
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Service.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Service.pdb
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Domain.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Infra.Data.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Domain.pdb
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\bin\Debug\netcoreapp2.2\DDD.Infra.Data.pdb
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.csprojAssemblyReference.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.csproj.CoreCompileInputs.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.AssemblyInfoInputs.cache
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.AssemblyInfo.cs
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.csproj.CopyComplete
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.dll
+E:\Library\Desktop\PosPuc\APA\Projeto\DDD_Walter\DDD.Service\obj\Debug\netcoreapp2.2\DDD.Service.pdb
