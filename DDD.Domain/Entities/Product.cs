@@ -1,7 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
-
-namespace DDD.Domain.Entities
+﻿namespace DDD.Domain.Entities
 {
     public class Product : BaseEntity
     {

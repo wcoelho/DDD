@@ -9,21 +9,22 @@ namespace DDD.Infra.Data.Mapping
 	{
     public void Configure(EntityTypeBuilder<User> builder)
     {
-      builder.ToTable("User");
+        builder.ToTable("User");
 
-      builder.HasKey(c => c.Id);
+        builder.HasKey(c => c.Id);
 
-      builder.Property(c => c.Cpf)
-        .IsRequired()
-        .HasColumnName("Cpf");
+        builder.Property(c => c.Cpf)
+          .IsRequired()
+          .HasColumnName("Cpf");
 
-      builder.Property(c => c.BirthDate)
-        .IsRequired()
-        .HasColumnName("BirthDate");
+        builder.Property(c => c.BirthDate)
+          .IsRequired()
+          .HasColumnName("BirthDate");
 
-      builder.Property(c => c.Name)
-        .IsRequired()
-        .HasColumnName("Name");
+        builder.Property(c => c.Name)
+          .IsRequired()
+          .HasColumnName("Name");
+
     }
 	}
 }

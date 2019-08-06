@@ -7,7 +7,8 @@ namespace DDD.Infra.Data.Context
     public class SQLiteContext : DbContext
     {
         public DbSet<User> User { get; set; }
-        public DbSet<Product> Produto { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<CheckingAccount> CheckingAccount { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -22,6 +23,7 @@ namespace DDD.Infra.Data.Context
 
             modelBuilder.Entity<User>(new UserMap().Configure);
             modelBuilder.Entity<Product>(new ProductMap().Configure);
+            modelBuilder.Entity<CheckingAccount>(new CheckingAccountMap().Configure);
         }
     }
 }

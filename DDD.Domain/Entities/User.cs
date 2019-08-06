@@ -1,11 +1,19 @@
 using System;
+using System.Collections.Generic;
 
 namespace DDD.Domain.Entities
 {
     public class User : BaseEntity
     {
+        public User (){
+            CheckingAccounts = new HashSet<CheckingAccount>();
+        }
+
         public string Name { get; set; }
         public string Cpf { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public virtual ICollection<CheckingAccount> CheckingAccounts { get; set; }
         private DateTime _BirthDate;
         public DateTime BirthDate { 
             get {
