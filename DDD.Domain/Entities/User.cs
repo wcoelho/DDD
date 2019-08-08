@@ -12,7 +12,7 @@ namespace DDD.Domain.Entities
         public string Name { get; set; }
         public string Cpf { get; set; }
         public string Address { get; set; }
-        public string Phone { get; set; }
+        public string Phone { get; set; }        
         public virtual ICollection<CheckingAccount> CheckingAccounts { get; set; }
         private DateTime _BirthDate;
         public DateTime BirthDate { 

@@ -13,8 +13,7 @@ namespace DDD.Service.Validators
                     .OnAnyFailure(x =>
                     {
                         throw new ArgumentNullException("Conta Corrente não encontrada.");
-                    });
-                     
+                    });                     
         }
 	}
 }

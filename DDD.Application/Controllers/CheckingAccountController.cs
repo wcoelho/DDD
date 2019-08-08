@@ -14,12 +14,20 @@ namespace DDD.Application.Controllers
     public class CheckingAccountController : ControllerBase
     {
          private BaseService<CheckingAccount> service = new BaseService<CheckingAccount>();
+         private BaseService<User> serviceUser = new BaseService<User>();
 
     [HttpPost]
     public IActionResult Post([FromBody] CheckingAccount item)
     {
         try
         {
+            User user = serviceUser.Get(item.UserId);
+
+            if(user==null)
+            {
+                return NotFound("Usuário não existe");
+            }
+
             service.Post<CheckingAccountValidator>(item);
 
             return new ObjectResult(item.Id);
