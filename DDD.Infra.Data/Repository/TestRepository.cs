@@ -8,9 +8,9 @@ using System.Text;
 
 namespace DDD.Infra.Data.Repository
 {
-    public class BaseRepository<T> : IRepository<T> where T : BaseEntity
+    public class TestRepository<T> : IRepository<T> where T : BaseEntity
     {
-        private SQLiteContext context = new SQLiteContext(useInMemory: false);
+        private SQLiteContext context = new SQLiteContext(useInMemory: true);
 
         public void Insert(T obj)
         {

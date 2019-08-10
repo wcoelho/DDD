@@ -11,12 +11,21 @@ namespace DDD.Infra.Data.Context
         public DbSet<CheckingAccount> CheckingAccount { get; set; }
         public DbSet<Transaction> Transaction { get; set; }
 
+        bool _useInMemory = false;
+
+        public SQLiteContext(bool useInMemory) {
+            _useInMemory = (useInMemory)? useInMemory : false;
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Utilizando um servidor SQLite local. Aqui poderíamos configurar qualquer outro banco de dados.
-            if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlite("DataSource=app.db");
-                //optionsBuilder.UseInMemoryDatabase(databaseName: "test1");
+            if(!optionsBuilder.IsConfigured)
+            {
+                if (_useInMemory)
+                    optionsBuilder.UseInMemoryDatabase(databaseName: "test1");
+                else
+                    optionsBuilder.UseSqlite("DataSource=app.db");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -3,7 +3,7 @@ using Xunit;
 using DDD.Infra.Data.Repository;
 using DDD.Domain.Interfaces;
 using DDD.Domain.Entities;
-using DDD.Service;
+using DDD.Service.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +42,7 @@ namespace DDD.Tests
 
             Assert.Equal(pdt2.Name, pdt.Name);
             Assert.Equal(pdt2.SKU, pdt.SKU);
-            Assert.Equal(pdt2.Manufacturer, pdt.Fabricante);
+            Assert.Equal(pdt2.Manufacturer, pdt.Manufacturer);
 
             var id = pdt.Id;
             service.Delete(pdt.Id);
