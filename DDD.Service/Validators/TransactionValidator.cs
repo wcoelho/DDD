@@ -14,7 +14,10 @@ namespace DDD.Service.Validators
                     {
                         throw new ArgumentNullException("Transação não encontrada.");
                     });
-                     
+            RuleFor(c => c.Value)
+                    .NotEmpty().WithMessage("O valor é mandatório.")
+                    .NotNull().WithMessage("O valor é mandatório.");
+
         }
 	}
 }
