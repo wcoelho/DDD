@@ -128,7 +128,7 @@
 			"response": []
 		},
 		{
-			"name": "Create Transaction",
+			"name": "Create Credit Transaction",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -141,7 +141,69 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"CheckingAccountId\": 1,\n\t\"Value\": 10000\n}"
+					"raw": "{\n\t\"CheckingAccountId\": 1,\n\t\"Value\": 40000\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/transaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Debit Transaction",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CheckingAccountId\": 1,\n\t\"Value\": -30000\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/transaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Not Allowed Debit Transaction",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CheckingAccountId\": 1,\n\t\"Value\": -1000000\n}"
 				},
 				"url": {
 					"raw": "http://localhost:5000/api/transaction",
